@@ -1,0 +1,55 @@
+{
+  "name": "react-typescript-starter",
+  "version": "0.1.0",
+  "description": "A starter project for a clientside app powered by TypeScript, React, Redux, Webpack, and PostCSS.",
+  "main": "main.min.js",
+  "author": "Alain Galvan <hi@alain.xyz>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alaingalvan/Alain.xyz-Frontend.git"
+  },
+  "scripts": {
+    "watch": "set NODE_ENV=development & webpack --watch",
+    "build": "set NODE_ENV=production & webpack",
+    "webpack": "webpack",
+    "lite": "lite-server",
+    "develop": "concurrently \"npm run watch\" \"npm run lite\""
+  },
+  "keywords": [
+    "systemjs",
+    "typescript",
+    "postcss"
+  ],
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "concurrently": "^2.2.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.3",
+    "postcss-loader": "^0.10.1",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.0",
+    "webpack": "^2.1.0-beta.21"
+  },
+  "dependencies": {
+    "@types/isomorphic-fetch": "0.0.28",
+    "@types/node": "^6.0.31",
+    "@types/react": "^0.14.31",
+    "@types/react-dom": "^0.14.15",
+    "@types/react-motion": "0.0.17",
+    "@types/react-redux": "^4.4.27",
+    "@types/react-router": "^2.0.27",
+    "@types/redux-thunk": "^2.0.27",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-motion": "^0.4.4",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.7.0",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  }
+}
